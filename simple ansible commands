@@ -3,3 +3,9 @@ $ansible -m ping all
 
 #check memory usage
 $ansible -m shell -a 'free -m' host1 
+
+#check ip address, deprecated
+$ifconfig 
+
+#check ip address, new command
+$ip a
