@@ -11,10 +11,14 @@ $ifconfig
 $ip a
 
 #How to configure a static IP address on CentOS 7 / RHEL 7
-#Create a file named /etc/sysconfig/network-scripts/ifcfg-eth0 as follows:
-DEVICE=eth0.
+#Create a file named /etc/sysconfig/network-scripts/ifcfg-enp0s3 as follows:
+DEVICE=enp0s3.
 BOOTPROTO=none.
 ONBOOT=yes.
 PREFIX=24.
 IPADDR=192.168.2.203.
-Restart network service: systemctl restart network.
+Restart network service: systemctl restart NetworkManager
+ip a
+nmcli device connect enp0s3
+ip a
+
