@@ -1,2 +1,5 @@
 $ansible --version
 $ansible -m ping all
+
+#check memory usage
+$ansible -m shell -a 'free -m' host1 
