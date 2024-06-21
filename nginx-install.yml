@@ -2,3 +2,13 @@
 - name: install nginx
   hosts: all
   become: true
+
+  tasks:
+   yum:
+   name: nginx
+   state: latest
+
+   service:
+   name: nginx
+   state: started
+   
