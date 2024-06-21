@@ -22,3 +22,5 @@ ip a
 nmcli device connect enp0s3
 ip a
 
+#Check yaml syntax online
+www.yamllint.com
