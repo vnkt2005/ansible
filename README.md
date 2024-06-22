@@ -5,3 +5,9 @@
    $sudo apt install dnf
    $yum install python3 -y
    ```
+
+   
+```sh
+useradd ansadmin
+passwd ansadmin
+```
