@@ -7,3 +7,7 @@ sudo apt-get software-properties-common
 ```sh
 sudo apt-get install software-properties-common
 ```
+
+```sh
+sudo apt-add-repository --yes -update ppa:ansible/ansible 
+```
