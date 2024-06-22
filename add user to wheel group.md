@@ -2,6 +2,7 @@
 #run this command as root user and substitute username with actual user to be included in wheel group.
 <br>
 #Users in the wheel group can use sudo command.
+<br>
 usermod -aG wheel username
 
 # method-2
