@@ -16,4 +16,8 @@
 7.        >vagrant up
           >vagrant box list
           >vagrant ssh
+      <br>
+8. To add another virtual box like ubuntu<br>
+          >vagrant box add ubuntu/bionic4
+<br>
        
