@@ -49,7 +49,7 @@
 	#restart apache to serve the new index.html file 
 	sudo systemctl restart httpd
     ```
- 10. Add the following line at the end of vagrantfile
+ 10. Add the following line at the end of vagrantfile<br>
 	```sh
 	config.vm.provision :shell, path: "provision1.sh"
 	```
