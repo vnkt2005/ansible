@@ -51,14 +51,12 @@
 	sudo systemctl restart httpd
     ```
  11. Add the following line at the end of vagrantfile
-     <br>
      ```sh
-     
 	config.vm.provision :shell, path: "provision1.sh"
 
 	```
-  13. Run > vagrant reload --provision
-  14. Go to browser and type the command to see the website in action
+  12. Run > vagrant reload --provision
+  13. Go to browser and type the command to see the website in action
       ```sh
       http://localhost:8080
       ```
