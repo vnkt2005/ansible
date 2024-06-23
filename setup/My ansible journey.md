@@ -8,3 +8,4 @@
        >windows prompt<br>
        >vagrant init<br>
        >this command creates Vagrantfile in e:\vagrantprojects folder<br>
+6. Goto app.vagrantup.com/boxes/search ---> discover vagrant boxes<br>
