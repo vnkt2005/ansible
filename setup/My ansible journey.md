@@ -53,6 +53,6 @@
 
     Add the following line at the end of vagrantfile
     ```sh
-    	config.vm.provision :shell, path: "provision1.sh"
+	config.vm.provision :shell, path: "provision1.sh"
     ```
        
