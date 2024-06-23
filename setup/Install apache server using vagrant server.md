@@ -50,10 +50,12 @@
 	sudo systemctl restart httpd
     ```
  10. Add the following line at the end of vagrantfile
+     
 	```sh
 	config.vm.provision :shell, path: "provision1.sh"
 	```
   11. Run the following command
+      
 	```sh
 	vagrant reload --provision
 	```
