@@ -9,3 +9,8 @@
        >vagrant init<br>
        >this command creates Vagrantfile in e:\vagrantprojects folder<br>
 6. Goto app.vagrantup.com/boxes/search ---> discover vagrant boxes<br>
+          Search for centos<br>
+          Click virtualbox and copy the following line<br>
+          config.vm.box = "centos/7"
+          open vagrantfile, paste above line at the end and save the file<br>
+7. >vagrant up<br>
