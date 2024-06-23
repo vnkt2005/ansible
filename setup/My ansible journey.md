@@ -14,3 +14,5 @@
           config.vm.box = "centos/7"
           open vagrantfile, paste above line at the end and save the file<br>
 7. >vagrant up<br>
+       >vagrant box list<br>
+       
