@@ -22,14 +22,14 @@
 <br>
 
 9. Add following lines in vagrantfile <br>
-      
+```sh    
   config.vm.box = "centos/7"
   config.vm.provision "shell", inline: <<-SHELL
 	sudo yum update -y 
 	sudo yum install -y httpd
   SHELL
   >vagrant reload
->
+```
 
 10. create new file provision1.sh and write the following commands
     ```sh
