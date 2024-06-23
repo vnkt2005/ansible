@@ -33,8 +33,7 @@
 
 10. create new file provision1.sh and write the following commands
     ```sh
-    
-    	#!/usr/bin/env bash
+	#!/usr/bin/env bash
 
 	#install apache web server
 	sudo yum update -y
