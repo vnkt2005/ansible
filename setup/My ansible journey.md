@@ -7,3 +7,4 @@
 5. Open new folder in windows E:\vagrantprojects<br>
        >windows prompt<br>
        >vagrant init<br>
+       >this command creates Vagrantfile in e:\vagrantprojects folder<br>
