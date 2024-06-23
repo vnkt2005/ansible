@@ -50,11 +50,12 @@
 	#restart apache to serve the new index.html file 
 	sudo systemctl restart httpd
     ```
-
  11. Add the following line at the end of vagrantfile
      <br>
-	```sh
+     ```sh
+     
 	config.vm.provision :shell, path: "provision1.sh"
+
 	```
   13. Run > vagrant reload --provision
   14. Go to browser and type the command to see the website in action
