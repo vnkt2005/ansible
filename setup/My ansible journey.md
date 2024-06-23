@@ -31,7 +31,7 @@
 	  >vagrant reload
 	```
 
-10. create new file provision1.sh and write the following commands
+10. create new file provision1.sh in windows E:\vagrantprojects folder and write the following commands
     ```sh
 	#!/usr/bin/env bash
 
@@ -51,9 +51,13 @@
 	sudo systemctl restart httpd
     ```
 
-    Add the following line at the end of vagrantfile
+ 11. Add the following line at the end of vagrantfile
     ```sh
 	config.vm.provision :shell, path: "provision1.sh"
     ```
-    then run >vagrant provision
+  12. Run > vagrant reload --provision
+  13. Go to browser and type the command to see the website in action
+      ```sh
+      http://localhost:8080
+      ```
        
