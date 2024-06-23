@@ -30,4 +30,9 @@
                  sudo yum install -y httpd
           SHELL
        ```
+  config.vm.box = "centos/7"
+  config.vm.provision "shell", inline: <<-SHELL
+	sudo yum update -y 
+	sudo yum install -y httpd
+  SHELL
        
