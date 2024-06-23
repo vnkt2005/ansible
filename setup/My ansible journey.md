@@ -15,4 +15,5 @@
           open vagrantfile, paste above line at the end and save the file<br>
 7.        >vagrant up
           >vagrant box list
+          >vagrant ssh
        
