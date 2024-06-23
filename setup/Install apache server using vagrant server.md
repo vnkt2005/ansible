@@ -1,4 +1,4 @@
-# My ansible journey
+# Install apache server using vagrant server
 
 1. Install ubuntu 22.04 on windows 10
 2. install ansible on ubuntu terminal
@@ -53,9 +53,9 @@
 
  11. Add the following line at the end of vagrantfile
      <br>
-    ```sh
+	```sh
 	config.vm.provision :shell, path: "provision1.sh"
-    ```
+	```
   13. Run > vagrant reload --provision
   14. Go to browser and type the command to see the website in action
       ```sh
