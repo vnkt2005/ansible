@@ -20,4 +20,14 @@
 8. To add another virtual box like ubuntu<br>
           >vagrant box add ubuntu/bionic4
 <br>
+
+9. Add following lines in vagrantfile <br>
+       ```sh
+          config.vm.box = "centos/7"
+          config.vm.provision "shell", inline: <<-SHELL
+                 # Install Apache web server
+                 sudo yum update -y
+                 sudo yum install -y httpd
+          SHELL
+       ```
        
