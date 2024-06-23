@@ -55,4 +55,5 @@
     ```sh
 	config.vm.provision :shell, path: "provision1.sh"
     ```
+    then run >vagrant provision
        
