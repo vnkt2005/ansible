@@ -28,4 +28,5 @@
 	sudo yum update -y 
 	sudo yum install -y httpd
   SHELL
+  >vagrant reload
        
