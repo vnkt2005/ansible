@@ -4,5 +4,10 @@ Create a folder "E:\AnsibleDemo in Windows System
 In "AnsibleDemo" folder create two more folders called "ansible-controller" and "ansible-hosts"
 Navigate to ansible-controller and run the following commands.
 ```sh
+mkdir e:/ansibledemo
+cd e:/ansibledemo
+mkdir ansible-controller
+mkdir ansible-hosts
+cd ansible-controller
 vagrant init centos/7
 ```
