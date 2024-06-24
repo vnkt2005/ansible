@@ -39,3 +39,8 @@ vagrant init centos/7
     ```sh
     vagrant status
     ```
+10.Type the following command to connect to the controller virtual machine.
+    ```sh
+    vagrant ssh
+    ```
+    
