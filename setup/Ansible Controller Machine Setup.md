@@ -47,7 +47,7 @@ vagrant init centos/7
     ```sh
     $ansible --version
     ```
-12. Create hosts file in ansible-projects folder as follows in the controller virtual machine.
+12. Create hosts file and playbook.yml in ansible-projects folder as follows in the controller virtual machine.
     ```sh
         $pwd
         /home/vagrant
@@ -55,6 +55,7 @@ vagrant init centos/7
         $cd ansible-projects
         $ls
         $touch hosts
+        $touch playbook.yml
     ```
     
     
