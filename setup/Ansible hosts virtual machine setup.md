@@ -14,8 +14,8 @@
      end
   
      config.vm.define "db" do |db|
-         web.vm.hostname = "db"
-         web.vm.network "private_network", ip: "192.168.33.11"
+         db.vm.hostname = "db"
+         db.vm.network "private_network", ip: "192.168.33.11"
      end
    
       config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
