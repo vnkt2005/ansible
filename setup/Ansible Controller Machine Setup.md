@@ -31,7 +31,7 @@ vagrant init centos/7
 6. ```sh
    vagrant validate
    ```
-7. Now go to windows prompt at e:\ansibledemo\ansible-controller and run the following command
+7. Now go to windows prompt at e:\ansibledemo\ansible-controller and run the following command to create controller virtual machine and start it.
 8. ```sh
        vagrant up
    ```
