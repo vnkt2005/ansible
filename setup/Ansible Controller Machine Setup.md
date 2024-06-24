@@ -27,7 +27,7 @@ vagrant init centos/7
    
     end
    ```
-5. After saving the vagrantfile, validate the syntax with the following command
+5. After saving the vagrantfile, validate the syntax with the following command. Alternatively you can use "http://codebeautify.org/ruby-formatter-beautifier/".
 6. ```sh
    vagrant validate
    ```
