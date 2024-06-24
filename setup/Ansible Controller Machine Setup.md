@@ -27,3 +27,7 @@ vagrant init centos/7
    
     end
    ```
+5. After saving the vagrantfile, validate the syntax with the following command
+6. ```sh
+   vagrant validate
+   ```
