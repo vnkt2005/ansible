@@ -23,3 +23,9 @@
   
    end
    ```
+
+3. Now run the following command to configure and start the virtual machines web and db with the above configured ip addresses.
+```sh
+   vagrant up
+```
+
