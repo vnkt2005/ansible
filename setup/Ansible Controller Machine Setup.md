@@ -47,5 +47,15 @@ vagrant init centos/7
     ```sh
     $ansible --version
     ```
+12. Create hosts file in ansible-projects folder as follows in the controller virtual machine.
+    ```sh
+        $pwd
+        /home/vagrant
+        $mkdir ansible-projects
+        $cd ansible-projects
+        $ls
+        $touch hosts
+    ```
+    
     
     
