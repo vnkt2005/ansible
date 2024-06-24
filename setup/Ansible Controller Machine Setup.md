@@ -36,6 +36,6 @@ vagrant init centos/7
    vagrant up
    ```
 9. To see the status of the vagrant virtual machine type the followind command in the windows shell prompt.
-10. ```sh
+    ```sh
     vagrant status
     ```
