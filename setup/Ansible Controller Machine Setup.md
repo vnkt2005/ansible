@@ -43,4 +43,9 @@ vagrant init centos/7
     ```sh
     vagrant ssh
     ```
+11. To check whether ansible is installed in the virtual machine, use the following command.
+    ```sh
+    $ansible --version
+    ```
+    
     
