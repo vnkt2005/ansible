@@ -31,3 +31,7 @@ vagrant init centos/7
 6. ```sh
    vagrant validate
    ```
+7. Now go to windows prompt at e:\ansibledemo\ansible-controller and run the following command
+8. ```sh
+       vagrant up
+   ```
