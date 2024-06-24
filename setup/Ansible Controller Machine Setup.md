@@ -33,5 +33,9 @@ vagrant init centos/7
    ```
 7. Now go to windows prompt at e:\ansibledemo\ansible-controller and run the following command to create controller virtual machine and start it.
 8. ```sh
-       vagrant up
+   vagrant up
    ```
+9. To see the status of the vagrant virtual machine type the followind command in the windows shell prompt.
+10. ```sh
+    vagrant status
+    ```
