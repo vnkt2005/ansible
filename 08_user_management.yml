@@ -1,0 +1,22 @@
+---
+- name: User management
+  hosts: webservers
+  become: yes
+
+  tasks:
+  - name: User creation
+    user:
+      name: mpm01
+      comment: new user in mpm team
+      shell: /bin/bash
+
+# $cat /etc/password
+# $id mpm01
+# $groupadd mpmtech
+# $cat /etc/group
+#     group: mpmtech
+      groups: mpmtech,mpmprod
+
+# if you want to delete the user
+      state: absent
+      remove: yes          #removes user directory and data
