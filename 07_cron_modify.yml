@@ -1,0 +1,27 @@
+---
+- name: Modify Cron
+  hosts: webservers
+
+  tasks:
+  - name: Remove Cron Job
+    cron:
+      name: Run Test Script
+      state: present
+      user: vagrant
+      job: /tmp/script/
+
+  - name: Remove Cron Job
+    cron:
+      name: PATH
+      env: yes
+      user: vagrant
+      job: /tmp/script/
+
+  - name: Remove Cron Job
+    cron:
+      name: VAR
+      env: yes
+      user: vagrant
+      job: /tmp/script/test.sh
+      insertbefore: PATH
+      state: absent
