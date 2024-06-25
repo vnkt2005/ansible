@@ -1,0 +1,7 @@
+---
+- name: First basic PB
+  hosts: all
+  tasks:
+    - name: Test connectivity
+      ping: null
+
