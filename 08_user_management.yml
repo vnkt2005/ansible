@@ -10,10 +10,13 @@
       comment: new user in mpm team
       shell: /bin/bash
 
+# use the following commands to verify the results
 # $cat /etc/password
 # $id mpm01
 # $groupadd mpmtech
 # $cat /etc/group
+
+# if you want to add the user to new group or groups
 #     group: mpmtech
       groups: mpmtech,mpmprod
 
