@@ -9,3 +9,5 @@
         msg: 
           - "Alright!!"
           - "How are you?"
+    - name: Print another output
+      debug: msg="Hello, how are you?"
