@@ -7,3 +7,5 @@
     copy:
       src: /home/vagrant/myfile.txt
       dest: /tmp/
+      owner: vagrant
+      group: vagrant
