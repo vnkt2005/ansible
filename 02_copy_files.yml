@@ -1,0 +1,9 @@
+---
+- name: copy files to remote server
+  hosts: all
+
+  tasks:
+  - name: copy files
+    copy:
+      src: /home/vagrant/myfile.txt
+      dest: /tmp/
