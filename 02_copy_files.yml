@@ -9,3 +9,5 @@
       dest: /tmp/
       owner: vagrant
       group: vagrant
+#     mode: 0777
+      mode: ugo=rw
