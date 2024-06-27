@@ -3,5 +3,5 @@
   hosts: localhost
   tasks:
     - name: print a message
-    debug:
-      msg: "Hello, World!"
+      debug:
+        msg: Hello ansible world
