@@ -8,5 +8,5 @@
 # Find and stop processes
 ```sh
   $systemctl status ngnix
-  $pgrep nginx
+  $pgrep nginx | xargs kill
 ```
