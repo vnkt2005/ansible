@@ -10,4 +10,5 @@
   $su - root
   #systemctl status ngnix
   #pgrep nginx | xargs kill
+  #systemctl start nginx
 ```
