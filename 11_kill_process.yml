@@ -1,0 +1,8 @@
+---
+- name: Kill a process
+  hosts: all
+
+  tasks:
+  - name: Find a process and kill 
+    ignore_errors: yes
+    shell: "pgrep ngnix | xargs kill"
