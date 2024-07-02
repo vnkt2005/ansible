@@ -7,6 +7,7 @@
 
 # Find and stop processes
 ```sh
-  $systemctl status ngnix
-  $pgrep nginx | xargs kill
+  $su - root
+  #systemctl status ngnix
+  #pgrep nginx | xargs kill
 ```
