@@ -1,0 +1,13 @@
+---
+- name: Download files
+  hosts: all
+
+  tasks:
+  - name: Download file
+    get_url:
+      url: https://www.python.org/ftp/python/3.12.4/Python-3.12.4.tar.xz
+      dest: /tmp/script/
+      owner: vagrant
+      group: vagrant
+      mode: 0777
+
