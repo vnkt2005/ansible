@@ -9,6 +9,7 @@ $ansible -m shell -a 'free -m' host1
 $ifconfig 
 
 # How to install ifconfig in centos7
+#ifconfig installation 
 ```sh
 $sudo yum update
 $sudo yum install net-tools -y
