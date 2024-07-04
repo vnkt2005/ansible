@@ -1,3 +1,4 @@
+# Simple Ansible and Shell commands
 $ansible --version
 $ansible -m ping all
 
@@ -6,6 +7,13 @@ $ansible -m shell -a 'free -m' host1
 
 #check ip address, deprecated
 $ifconfig 
+
+# How to install ifconfig in centos7
+```sh
+$sudo yum update
+$sudo yum install net-tools -y
+```
+
 
 #check ip address, new command
 $ip a
