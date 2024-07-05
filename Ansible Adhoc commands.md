@@ -13,5 +13,5 @@
 ```
 
 ```sh
-  $ansible all -m shell -a "/tmp/script/test.sh"
+  $ansible all -m shell -a "/tmp/script/test.sh" -b
 ```
