@@ -12,3 +12,9 @@
   #pgrep nginx | xargs kill
   #systemctl start nginx
 ```
+
+# Tags in ansible playbook
+```sh
+  $ansible-playbook 13_app_install_tags.yml --list-tags
+  $ansible-playbook 13_app_install_tags.yml -t i-nginx
+```
