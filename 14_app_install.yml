@@ -1,0 +1,29 @@
+---
+- name: install and start nginx
+  hosts: all
+  become: true
+  vars: 
+    - app: nginx
+
+  tasks:
+  - name: update yum package
+    yum:
+     name: "*"
+     state: present
+
+  - name: "this installs yum install epel-release"
+    yum:
+     name: epel-release
+     state: present
+
+  - name: installing nginx
+    yum:
+     name: "{{ app }}"
+     state: present
+
+  - name: starting nginx service
+    service:
+     name: "{{ app }}"
+     state: started
+     enabled: true
+   
