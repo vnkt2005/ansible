@@ -9,5 +9,5 @@
 ```
 
 ```sh
-  $ansible all -m service -a "name=nginx state=reloaded"
+  $ansible all -m service -a "name=nginx state=reloaded" -b
 ```
