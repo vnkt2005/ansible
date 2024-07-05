@@ -15,6 +15,6 @@
 
 # Tags in ansible playbook
 ```sh
-  $ansible-playbook 13_app_install.yml --list-tags
-  $ansible-playbook 13_app_install.yml -t i-nginx
+  $ansible-playbook 13_app_install_tags.yml --list-tags
+  $ansible-playbook 13_app_install_tags.yml -t i-nginx
 ```
