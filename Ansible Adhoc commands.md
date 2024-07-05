@@ -7,3 +7,7 @@
   $ansible webservers -m copy -a "src=/home/vagrant/hello.txt dest=/tmp/script" -b --ask-become-pass
   $ansible webservers -m copy -a "src=/home/vagrant/hello.txt dest=/tmp/script/ mode=0777" -b --ask-become-pass
 ```
+
+```sh
+  $ansible all -m service -a "name=nginx state=reloaded"
+```
