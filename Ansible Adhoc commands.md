@@ -15,3 +15,8 @@
 ```sh
   $ansible all -m shell -a "/tmp/script/test.sh" -b
 ```
+
+  
+```sh
+  $ansible all -m command -a "free -h"
+```
