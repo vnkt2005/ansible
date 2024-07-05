@@ -34,3 +34,7 @@
 ```sh
   $ansible all -m command -a "df -h"
 ```
+
+```sh
+  $ansible all -m yum -a "name=vim state=present"
+```
