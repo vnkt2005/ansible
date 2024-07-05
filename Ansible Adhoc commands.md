@@ -11,3 +11,7 @@
 ```sh
   $ansible all -m service -a "name=nginx state=reloaded" -b
 ```
+
+```sh
+  $ansible all -m shell -a "/tmp/script/test.sh"
+```
