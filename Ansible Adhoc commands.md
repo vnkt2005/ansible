@@ -30,3 +30,7 @@
 ```sh
   $ansible all -m command -a "free -h"
 ```
+
+```sh
+  $ansible all -m command -a "df -h"
+```
