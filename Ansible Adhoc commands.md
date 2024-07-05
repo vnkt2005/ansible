@@ -1,10 +1,21 @@
 # Ansible Adhoc Commands
 ```sh
   $ansible localhost -m ping
-  $ansible all -m ping
-  $ansible 192.16833.10 -m ping
+```
 
+```sh
+  $ansible all -m ping
+```
+
+```sh
+  $ansible 192.16833.10 -m ping
+```
+
+```sh
   $ansible webservers -m copy -a "src=/home/vagrant/hello.txt dest=/tmp/script" -b --ask-become-pass
+```
+
+```sh
   $ansible webservers -m copy -a "src=/home/vagrant/hello.txt dest=/tmp/script/ mode=0777" -b --ask-become-pass
 ```
 
@@ -16,7 +27,6 @@
   $ansible all -m shell -a "/tmp/script/test.sh" -b
 ```
 
-  
 ```sh
   $ansible all -m command -a "free -h"
 ```
