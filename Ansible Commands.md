@@ -19,3 +19,7 @@
   $ansible-playbook 13_app_install_tags.yml -t i-nginx
   $ansible-playbook 13_app_install_tags.yml --skip-tags ss-nginx 
 ```
+
+```sh
+  $ansible serverA -m ping
+```
