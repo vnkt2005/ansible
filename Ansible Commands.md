@@ -23,3 +23,7 @@
 ```sh
   $ansible serverA -m ping
 ```
+
+```sh
+  $ansible serverA -m setup 
+```
