@@ -24,6 +24,7 @@
   $ansible serverA -m ping
 ```
 
+#To display ansible builtin variable values
 ```sh
   $ansible serverA -m setup 
 ```
