@@ -1,0 +1,15 @@
+---
+- name: User Mgm
+  hosts: all
+  become: true
+  
+  tasks:
+  - name: User Creation
+    user:
+      name: "{{ item }}"
+      comment: new user addition
+      shell: /bin/bash
+    loop:
+      - User01
+      - User02
+      - User03
