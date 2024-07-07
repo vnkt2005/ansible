@@ -1,5 +1,5 @@
 # Ansible Commands
 ```sh
   $which http
-  $ansible localhost -m yum"name=httpd state=installed"
+  $ansible localhost -m yum -a "name=httpd state=installed"
 ```
