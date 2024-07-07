@@ -34,4 +34,6 @@ Create Roles in Ansible
   $cd /etc/ansible/roles
   $ansible-galaxy init httpd-setup
   $cd httpd-setup
+  $cd tasks
+  $vi main.yml 
 ```
