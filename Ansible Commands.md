@@ -28,3 +28,9 @@ To display ansible built-in variable values of remote servers
 ```sh
   $ansible serverA -m setup 
 ```
+
+Create Roles in Ansible
+```sh
+  $cd /etc/ansible/roles
+  $ansible-galaxy init httpd-setup
+```
