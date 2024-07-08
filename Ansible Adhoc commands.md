@@ -38,3 +38,10 @@
 ```sh
   $ansible all -m yum -a "name=vim state=present"
 ```
+
+Install httpd in centos7
+```sh
+  $sudo ansible localhost -m yum -a "name=httpd state=installed"
+  $sudo ansible localhost -m copy -a "src=index.html dest=/var/www/html/index.html"
+  $sudo ansible localhost -m service -a "name=httpd state=started"
+```
