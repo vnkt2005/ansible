@@ -1,2 +1,5 @@
-sudo yum install epel-release
-sudo yum install ansible
+```sh
+  $sudo su
+  #yum install epel-release -y
+  #yum install ansible
+```
