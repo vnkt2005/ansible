@@ -5,4 +5,6 @@
   #yum install ansible
 
   #systemctl disable firewalld; systemctl stop firewalld
+
+  #yum install vim -y
 ```
