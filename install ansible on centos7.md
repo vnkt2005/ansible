@@ -8,3 +8,8 @@
 
   #yum install vim -y
 ```
+
+To list all ansible host machines
+```sh
+  $ansible all --list
+```
