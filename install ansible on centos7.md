@@ -13,3 +13,8 @@ To list all ansible host machines
 ```sh
   $ansible all --list
 ```
+
+To ping all host machines in ansible 
+```sh
+  $ansible all -m ping
+```
