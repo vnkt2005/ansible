@@ -34,3 +34,8 @@ To list the ansible packages and count
   $ansible-doc -l | grep package
   $ansible-doc -l | grep package | wc -l
 ```
+
+To see the help for package yum
+```sh
+  $ansible-doc yum
+```
