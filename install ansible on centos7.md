@@ -24,7 +24,13 @@ To get ansible help
   $ansible-doc -l
 ```
 
-To cound the number of ansible modules
+To count the number of ansible modules
 ```sh
   $ansible-doc -l | wc -l
+```
+
+To list the ansible packages and count
+```sh
+  $ansible-doc -l | grep package
+  $ansible-doc -l | grep package | wc -l
 ```
