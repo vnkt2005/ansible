@@ -18,3 +18,8 @@ To ping all host machines in ansible
 ```sh
   $ansible all -m ping
 ```
+
+To get ansible help
+```sh
+  $ansible-doc -l
+```
