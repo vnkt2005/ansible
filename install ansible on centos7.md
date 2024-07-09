@@ -3,4 +3,6 @@
   $sudo su
   #yum install epel-release -y
   #yum install ansible
+
+  #systemctl disable firewalld; systemctl stop firewalld
 ```
