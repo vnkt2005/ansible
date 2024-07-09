@@ -1,0 +1,10 @@
+---
+- name: i am going to install some packages
+  hosts: dbservers
+  become: true
+
+  tasks:
+   - name: install package
+     yum:
+      name: httpd
+      state: latest
