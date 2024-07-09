@@ -23,3 +23,8 @@ To get ansible help
 ```sh
   $ansible-doc -l
 ```
+
+To cound the number of ansible modules
+```sh
+  $ansible-doc -l | wc -l
+```
