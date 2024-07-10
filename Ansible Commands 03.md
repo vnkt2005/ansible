@@ -49,3 +49,8 @@ To see detailed execution output
 ```sh
   $ansible-playbook iamcurious.yml -C -vvvv
 ```
+
+To see ansible help page
+```sh
+  $ansible-doc service
+```
