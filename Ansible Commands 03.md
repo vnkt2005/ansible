@@ -43,4 +43,9 @@ To see the help for package yum
 To see the simulation of ansible playbook execution (not actual execution)
 ```sh
   $ansible-playbook iamcurious.yml -C
-``` 
+```
+
+To see detailed execution output
+```sh
+  $ansible-playbook iamcurious.yml -C -vvvv
+```
