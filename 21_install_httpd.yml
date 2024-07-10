@@ -1,15 +1,16 @@
 ---
-- name: Install httpd 
+- name: Install httpd
   hosts: all
   become: true
 
   tasks:
-  - name: install httpd
-    yum:
-      name: httpd
-      state: latest
+    - name: Install httpd package
+      package:
+        name: httpd
+        state: present
 
-  - name: start httpd service
-    service:
-      name: httpd
-      state: started
+    - name: start httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: yes

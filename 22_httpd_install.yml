@@ -1,0 +1,15 @@
+---
+- name: Install HTTPD using Ansible Playbook
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install HTTPD package
+      yum:
+        name: httpd
+        state: latest
+    - name: Start HTTPD service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
