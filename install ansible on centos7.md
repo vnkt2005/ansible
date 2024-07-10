@@ -39,3 +39,8 @@ To see the help for package yum
 ```sh
   $ansible-doc yum
 ```
+
+To see the simulation of ansible playbook execution (not actual execution)
+```sh
+  $ansible-playbook iamcurious.yml -C
+``` 
