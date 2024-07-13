@@ -7,6 +7,14 @@ In the controller machine (Ubuntu)
 ```
 
 To connect without password to host machines
+(in controller)
 ```sh
   $ssh-keygen
+  $cat /home/ubuntu/.ssh/id_rsa.pub
+  (copy contents)
+```
+(in host machine)
+```sh
+  vi /home/ubuntu/.ssh/authorizedkeys
+  (and paste the contents)
 ```
