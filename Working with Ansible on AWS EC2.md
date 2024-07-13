@@ -23,6 +23,7 @@ To connect without password to host machines
 Ansible adhoc commands
 ```sh
   $ansible -i hosts all -m "shell" -a "touch newfile"
+  $ansible -i hosts all -m "shell" -a "nproc"
 ```
 
 Default ansible hosts file is /etc/ansible/hosts.
