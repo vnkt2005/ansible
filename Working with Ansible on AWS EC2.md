@@ -5,3 +5,8 @@ In the controller machine (Ubuntu)
   $sudo apt install ansible
   $ansible --version
 ```
+
+To connect without password to host machines
+```sh
+  $ssh-keygen
+```
