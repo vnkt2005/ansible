@@ -24,7 +24,19 @@ Ansible adhoc commands
 ```sh
   $ansible -i hosts all -m "shell" -a "touch newfile"
   $ansible -i hosts all -m "shell" -a "nproc"
+  $ansible -i hosts all -m "shell" -a "df"
 ```
 
-Default ansible hosts file is /etc/ansible/hosts.
+Default ansible hosts file is /etc/ansible/hosts.<br>
+Running Playbooks
+```sh
+  $ansible-playbook -i hosts first-playbook.yml
+  $sudo systemctl status nginx
+  $ansible-playbook -i hosts -vvv first-playbook.yml
+```
+
+Kubernetes
+```sh
+  $ansible-galaxy role init kubernetes
+```
 
