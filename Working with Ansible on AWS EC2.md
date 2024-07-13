@@ -37,6 +37,8 @@ Running Playbooks
 
 Kubernetes
 ```sh
+  $mkdir second-playbook
+  $cd second-playbook
   $ansible-galaxy role init kubernetes
 ```
 
