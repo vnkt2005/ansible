@@ -16,6 +16,6 @@ To connect without password to host machines
 (in host machine)
 ```sh
   $ssh-keygen
-  $vi /home/ubuntu/.ssh/authorizedkeys
+  $vi /home/ubuntu/.ssh/authorized_keys
   (and paste the contents)
 ```
