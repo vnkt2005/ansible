@@ -3,4 +3,5 @@ In the controller machine (Ubuntu)
 ```sh
   $sudo apt update
   $sudo apt install ansible
+  $ansible --version
 ```
