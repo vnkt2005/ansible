@@ -19,3 +19,10 @@ To connect without password to host machines
   $vi /home/ubuntu/.ssh/authorized_keys
   (and paste the contents)
 ```
+
+Ansible adhoc commands
+```sh
+```
+
+Default ansible hosts file is /etc/ansible/hosts.
+
